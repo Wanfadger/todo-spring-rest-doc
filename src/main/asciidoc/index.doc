@@ -1,0 +1,26 @@
+= Todo Spring rest Doc
+   This is service running at http://localhost:8080
+
+== Persist Todo Endpoint
+
+.request
+include::{snippets}/persistTodoTest/http-request.adoc[]
+
+.response
+include::{snippets}/persistTodoTest/http-response.adoc[]
+
+== Fetch All Todos Endpoint
+.request
+include::{snippets}/fetchTodosTest/http-request.adoc[]
+
+.response::{snippets}/fetchTodosTest/http-response.adoc[]
+   
+== Fetch Todo By its Id
+.request
+include::{snippets}/fetchById/http-request.adoc[]
+
+.response
+include::{snippets}/fetchById/http-response.adoc[]   
+
+ Implemented by Galiwango Fahad , galiwango.fahad@gmail.com
+ website: https://wanfadger.netlify.app/
